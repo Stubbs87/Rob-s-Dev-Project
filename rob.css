@@ -19,7 +19,6 @@ header button {
   background: rgba(0,0,0,0);
   border: solid 5px #6496c8;
   margin: 0 10px 0 0;
-  padding: 10px 35px;
   font-size: 24px;
   font-family: "Bitter",serif;
   line-height: 1;
@@ -27,12 +26,15 @@ header button {
   box-shadow: none;
   border-radius: 15px;
   margin: 10px 10px auto;
+  width:100%;
 }
 
 header .dropdown {
     float:left;
     clear:none;
-    width:220px;
+    width:40%;
+    text-align:center;
+    
 }
 
 #left {
@@ -42,7 +44,10 @@ header .dropdown {
 #right {
     float:right;
     margin: 10px 10px auto;
+    margin-left:0;
     clear:none;
+    width:40%;
+    text-align:center;
 }
 
 header #drop {
@@ -50,14 +55,14 @@ header #drop {
     position:relative;
     margin-left:20px;
     padding:2px 2px 2px 2px;
-    height:130px;
-    width:100px;
+    height:5%;
+    width:80%;
     background:red;
-    width:165px;
     border-radius:0 0 10px 10px;
     font-family:fantasy;
     text-align:justify;
     color:white;
+    font-size:0.9em;
 }
 
 header #left:hover {
