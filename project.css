@@ -1,0 +1,57 @@
+html body{
+    background:url('https://c8.staticflickr.com/9/8605/15810766751_89cae9045c_h.jpg') center fixed;
+    background-size:cover;
+    margin:0;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 46px;
+    text-shadow: 0px 2px 4px rgba(34,62,66,75);
+    text-align:center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.main {
+    position:relative;
+    display:flex;
+    align-items:center;
+    vertical-align: middle;
+    justify-content:center;
+    height:500px;
+    width:100%;
+    border:solid 2px red;
+}
+
+#container {
+    display:flex;
+    align-items:center;
+    vertical-align: middle;
+    justify-content:center;
+    height:200px;
+    width:200px;
+    border:solid 2px red;
+}
+
+#container p {
+    border:solid 2px blue;
+    color:white;
+    text-align:justify;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    margin:0;
+    height:100px;
+    width:100%;
+    border:solid 2px red;
+    text-align:center;
+    
+}

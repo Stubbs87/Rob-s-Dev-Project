@@ -1,8 +1,8 @@
 
 
 html body {
-    background: url('https://c1.staticflickr.com/8/7529/15473870864_b32d3dd184_h.jpg')center fixed;
-    background-size:cover;
+    background: url('https://c1.staticflickr.com/8/7529/15473870864_b32d3dd184_h.jpg')center fixed no-repeat;
+    background-size:auto;
     height:100vh;
     margin:0; 
     
@@ -41,13 +41,18 @@ header .dropdown {
     
 }
 
-#right {
+header #right {
     float:right;
     margin: 10px 10px auto;
     margin-left:0;
     clear:none;
     width:40%;
     text-align:center;
+}
+
+header #right p {
+    margin:0px 0px 0px 0px;
+    display:inline-block;
 }
 
 header #drop {
